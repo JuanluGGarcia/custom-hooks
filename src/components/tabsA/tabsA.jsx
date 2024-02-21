@@ -21,7 +21,7 @@ const TabsA = () => {
             <StyledTabsContainer>
                 <StyledList>
                     
-                    {TabsA..map((tab, index) => {
+                    {TabsA.map((tab, index) => {
 
                         return (
 
