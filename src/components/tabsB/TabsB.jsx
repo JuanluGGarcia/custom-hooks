@@ -2,6 +2,7 @@
 import { StyledList, StyledTab, StyledTabsContainer } from './styles';
 // import { useState } from 'react';
 import { useTabs } from '../../hooks/useTabs';
+import { TABSFORB } from '../../constants/tabs';
 
 // const TABS = [
 //     { id: v4(), name: 'Tab1' },
@@ -22,7 +23,7 @@ const TabsB = () => {
             <StyledTabsContainer>
                 <StyledList>
                     
-                    {TABS.map((tab, index) => {
+                    {TABSFORB.tabsB.map((tab, index) => {
 
                         return (
 
@@ -40,7 +41,7 @@ const TabsB = () => {
 
                 </StyledList>
             </StyledTabsContainer>
-            <p>{TABSINFO[tabActive]}</p>
+            <p>{TABSFORB.tabsInfoB[tabActive]}</p>
         </>
         
     );

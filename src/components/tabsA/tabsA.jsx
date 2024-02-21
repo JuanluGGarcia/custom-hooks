@@ -2,6 +2,7 @@ import { v4 } from 'uuid';
 import { StyledList, StyledTab, StyledTabsContainer } from './styles';
 // import { useState } from 'react';
 import { useTabs } from '../../hooks/useTabs';
+import { TABSFORA } from '../../constants/tabs';
 
 // Me lo llevo a constans-tabs.js
 
@@ -21,7 +22,7 @@ const TabsA = () => {
             <StyledTabsContainer>
                 <StyledList>
                     
-                    {TabsA.map((tab, index) => {
+                    {TABSFORA.tabsA.map((tab, index) => {
 
                         return (
 
@@ -39,7 +40,7 @@ const TabsA = () => {
 
                 </StyledList>
             </StyledTabsContainer>
-            <p>{TABSINFO[tabActive]}</p>
+            <p>{TABSFORA.tabsInfoA[tabActive]}</p>
         </>
         
     );

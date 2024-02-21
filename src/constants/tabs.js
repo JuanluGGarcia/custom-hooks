@@ -19,12 +19,12 @@ const tabsB = [
 const tabsInfoB = ['Info 1', 'Info 2', 'Info 3', 'Info 4', 'Info 5'];
 
 
-export const tabsforA = {
+export const TABSFORA = {
 	tabsA,
 	tabsInfoA
 };
 
-export const tabsforB = {
+export const TABSFORB = {
 	tabsB,
 	tabsInfoB
 };
